@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ToastrService } from 'ngx-toastr';
 
-import { CitizensDetailsFormComponent } from './citizens-details-form/citizens-details-form.component';
-import { CitizensDetailsService } from '../services/citizens-details.service';
-import { CitizenDetails } from '../models/citizen-details.model';
+import { CitizensDetailsFormComponent } from '../citizens-details-form/citizens-details-form.component';
+import { CitizenDetails } from '../../../../core/models/citizen-details.model';
+import { CitizensDetailsService } from '../../../../core/use-cases/citizens-details.service';
 
 @Component({
   selector: 'app-citizens-details',
@@ -15,24 +15,24 @@ import { CitizenDetails } from '../models/citizen-details.model';
 })
 export class CitizensDetailsComponent implements OnInit{
 
-    constructor(public service : CitizensDetailsService, private toastr: ToastrService) {
+    constructor(public citizenService : CitizensDetailsService, private toastr: ToastrService) {
     }
 
   ngOnInit(): void {
-    this.service.refreshList();
+    this.citizenService.refreshList();
   }
 
   populateForm(selectedRecord: CitizenDetails) {
-    this.service.formData = Object.assign({}, selectedRecord);
+    this.citizenService.formData = Object.assign({}, selectedRecord);
   }
 
   onDelete(id: string) {
     if (confirm('Are you sure to delete this record?'))
-      this.service.deleteCitizen(id)
+      this.citizenService.deleteCitizen(id)
         .subscribe({
           next: res => {
-            this.service.list = res as CitizenDetails[]
-            this.service.refreshList()
+            this.citizenService.list = res as CitizenDetails[]
+            this.citizenService.refreshList()
             this.toastr.error('Deleted successfully', 'Citizen Register')
           },
           error: err => { console.log(err) }

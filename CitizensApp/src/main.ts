@@ -1,14 +1,14 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { provideAnimations } from '@angular/platform-browser/animations';  // Make sure to import provideAnimations
+import { provideAnimations } from '@angular/platform-browser/animations';
 import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
 import { provideToastr } from 'ngx-toastr';
 
 bootstrapApplication(AppComponent, {
   providers: [
-    provideAnimations(),  // Add this to the providers array
+    provideAnimations(),
     provideToastr(),
-    ...appConfig.providers // Spread the providers from appConfig into the array
+    ...appConfig.providers
   ]
 })
   .catch((err) => console.error(err));

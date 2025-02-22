@@ -1,0 +1,33 @@
+# Ignore build output directories
+/bin/
+/obj/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Ignore build files (DLLs, EXEs)
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore NuGet packages folder
+/packages/
+
+# Ignore IDE-specific folders (e.g., Visual Studio)
+.vs/
+.vscode/
+
+# Ignore ASP.NET temporary files
+**/App_Data/
+**/App_Themes/
+**/obj/
+
+# Ignore logs
+*.log
+
+# Ignore publish output
+/wwwroot/

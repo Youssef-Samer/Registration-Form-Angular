@@ -4,8 +4,8 @@ import { FormsModule, NgForm } from '@angular/forms';
 import { Guid } from 'guid-typescript';
 import { ToastrService } from 'ngx-toastr';
 
-import { CitizensDetailsService } from '../../services/citizens-details.service';
-import { CitizenDetails } from '../../models/citizen-details.model';
+import { CitizensDetailsService } from '../../../../core/use-cases/citizens-details.service';
+import { CitizenDetails } from '../../../../core/models/citizen-details.model';
 
 @Component({
   selector: 'app-citizens-details-form',
