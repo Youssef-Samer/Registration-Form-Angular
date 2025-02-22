@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|c:\\users\\asus\\data\\luftborn\\citizensapi\\controllers\\citizendetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|solutionrelative:controllers\\citizendetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|c:\\users\\asus\\data\\luftborn\\citizensapi\\models\\citizendetailscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|solutionrelative:models\\citizendetailscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|c:\\users\\asus\\data\\luftborn\\citizensapi\\models\\citizendetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|solutionrelative:models\\citizendetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|c:\\users\\asus\\data\\luftborn\\citizensapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|c:\\users\\asus\\data\\luftborn\\citizensapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|c:\\users\\asus\\data\\luftborn\\citizensapi\\citizensapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|solutionrelative:citizensapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Migrations\\20250221175947_Initial-Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250221175947_Initial-Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|c:\\users\\asus\\data\\luftborn\\citizensapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74C89EC7-D2B6-4DC6-BCC4-E0459EBCCA70}|CitizensAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CitizenDetailsContext.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Models\\CitizenDetailsContext.cs",
+              "RelativeDocumentMoniker": "Models\\CitizenDetailsContext.cs",
+              "ToolTip": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Models\\CitizenDetailsContext.cs",
+              "RelativeToolTip": "Models\\CitizenDetailsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:13:24.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CitizenDetails.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Models\\CitizenDetails.cs",
+              "RelativeDocumentMoniker": "Models\\CitizenDetails.cs",
+              "ToolTip": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Models\\CitizenDetails.cs",
+              "RelativeToolTip": "Models\\CitizenDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:13:18.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T17:59:20.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T17:59:08.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitizenDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Controllers\\CitizenDetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CitizenDetailController.cs",
+              "ToolTip": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Controllers\\CitizenDetailController.cs",
+              "RelativeToolTip": "Controllers\\CitizenDetailController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T17:41:35.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T17:58:30.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CitizensAPI.http",
+              "DocumentMoniker": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\CitizensAPI.http",
+              "RelativeDocumentMoniker": "CitizensAPI.http",
+              "ToolTip": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\CitizensAPI.http",
+              "RelativeToolTip": "CitizensAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-21T17:57:30.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250221175947_Initial-Migration.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Migrations\\20250221175947_Initial-Migration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250221175947_Initial-Migration.cs",
+              "ToolTip": "C:\\Users\\asus\\DATA\\Luftborn\\CitizensAPI\\Migrations\\20250221175947_Initial-Migration.cs",
+              "RelativeToolTip": "Migrations\\20250221175947_Initial-Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T17:59:47.749Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

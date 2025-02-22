@@ -1,0 +1,32 @@
+<form #form="ngForm" (submit)="onSubmit(form)" [class.submitted]="service.formSubmitted" novalidate autocomplete="off">
+    <input type="hidden" name="citizenId" [value]="service.formData.citizenId">
+    <div class="mb-3">
+      <label>FULL NAME</label>
+      <input class="form-control form-control-lg" placeholder="Enter Your Name.." #citizenName="ngModel" name="citizenName"
+        [(ngModel)]="service.formData.citizenName" required>
+    </div>
+    <div class="mb-3">
+      <label>NATIONAL ID</label>
+      <input class="form-control form-control-lg" placeholder="Enter National ID.." #nationalId="ngModel"
+        name="nationalId" [(ngModel)]="service.formData.nationalId" required maxlength="14">
+    </div>
+  
+    <div class="row">
+      <div class="mb-3 col-6">
+        <label>SECURITY CODE</label>
+        <input class="form-control form-control-lg" placeholder="Enter Code.." type="password" #securityCode="ngModel"
+          name="securityCode" [(ngModel)]="service.formData.securityCode" required maxlength="7">
+      </div>
+      <div class="mb-3 col-6">
+        <label>ID EXP. DATE</label>
+        <input class="form-control form-control-lg" placeholder="MM/YY" #nationalIdExpirationDate="ngModel" name="nationalIdExpirationDate"
+          [(ngModel)]="service.formData.nationalIdExpirationDate" required maxlength="5">
+      </div>
+    </div>
+    <div class="d-grid">
+      <button class="btn btn-lg btn-success" type="submit">
+        Submit
+      </button>
+    </div>
+  
+  </form>
