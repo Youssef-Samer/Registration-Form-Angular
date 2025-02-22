@@ -1,6 +1,8 @@
-using CitizensAPI.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+
+using CitizensAPI.Core.Interfaces;
+using CitizensAPI.Infrastructure.Persistence;
+using CitizensAPI.Infrastructure.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +21,7 @@ builder.Services.AddDbContext<CitizenDetailsContext>(options => options.UseSqlSe
                 builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
             });
         });
+builder.Services.AddScoped<ICitizenRepository, CitizenRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline

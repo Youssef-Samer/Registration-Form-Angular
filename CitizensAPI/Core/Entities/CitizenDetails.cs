@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace CitizensAPI.Models
+namespace CitizensAPI.Core.Entities
 {
     public class CitizenDetails
     {
