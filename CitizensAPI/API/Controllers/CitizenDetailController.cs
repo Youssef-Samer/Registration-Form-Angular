@@ -13,9 +13,9 @@ public class CitizenDetailController : ControllerBase
     private readonly ICitizenRepository _repository;
     private readonly ILogger<CitizenDetailController> _logger;
 
-    public CitizenDetailController(ICitizenRepository repository, ILogger<CitizenDetailController> logger)
+    public CitizenDetailController(ICitizenRepositoryFactory citizenRepositoryFactory, ILogger<CitizenDetailController> logger)
     {
-        _repository = repository;
+        _repository = citizenRepositoryFactory.Create();
         _logger = logger;
     }
 

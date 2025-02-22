@@ -1,8 +1,9 @@
 ﻿using CitizensAPI.Core.Entities;
 using CitizensAPI.Core.Interfaces;
+using CitizensAPI.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace CitizensAPI.Infrastructure.Persistence.Repositories
+namespace CitizensAPI.Data.Repositories
 {
     public class CitizenRepository : ICitizenRepository
     {

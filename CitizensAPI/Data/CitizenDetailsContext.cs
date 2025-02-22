@@ -1,7 +1,7 @@
 ﻿using CitizensAPI.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CitizensAPI.Infrastructure.Persistence
+namespace CitizensAPI.Data
 {
     public class CitizenDetailsContext : DbContext
     {
